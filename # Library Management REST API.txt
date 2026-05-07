@@ -1,0 +1,37 @@
+# Library Management REST API
+
+## Project Description
+This project is a RESTful API for a Library Management System. It is developed using Node.js and Express.js. The API performs CRUD operations such as Create, Read, Update, and Delete books.
+
+## Technologies Used
+- Node.js
+- Express.js
+- JavaScript
+- REST API
+
+## Features
+- Add a new book
+- View all books
+- View a book by ID
+- Update book details
+- Delete a book
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | / | Checks API status |
+| GET | /books | Fetch all books |
+| GET | /books/:id | Fetch single book by ID |
+| POST | /books | Add new book |
+| PUT | /books/:id | Update book |
+| DELETE | /books/:id | Delete book |
+
+## Example POST Request
+
+```json
+{
+    "title": "Python Programming",
+    "author": "Guido van Rossum",
+    "price": 600
+}
